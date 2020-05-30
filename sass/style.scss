@@ -1,0 +1,28 @@
+* {
+	font-family: 'Roboto', sans-serif
+}
+
+.conteiner {
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+//импорт всех файлов scss
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/advantage';
+@import 'blocks/consultation';
+@import 'blocks/tittle';
+@import 'blocks/forms';
+@import 'blocks/caruosel';
+@import 'blocks/catalog';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/button';
+@import 'blocks/pageup';
+@import 'blocks/business';
+@import 'blocks/copyright';
+@import 'blocks/media';

@@ -1,0 +1,241 @@
+@media (max-width: 1200px) {}
+// -------------------------------------------------------------------------
+
+@media (max-width: 991px) {
+    .conteiner {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .advantage {
+        &__lists {
+            width: auto;
+        }
+        &__list {
+            width: 200px;
+        }
+    }
+    .caruosel {
+        padding: 55px 0;
+        &__inner {
+            width: 80%;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: center;
+            flex-direction: column;
+            margin: 60px auto 0 auto;
+            width: 300px;
+        }
+    }
+    .offer {
+        &__wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__sale {
+            margin-bottom: 33px;
+        }
+    }
+    
+}
+// -------------------------------------------------------------------------
+
+@media (max-width: 767px) {
+    .conteiner {
+        max-width: 550px;
+    }
+    .header {
+        &__official span {
+            font-size: 18px;
+        }
+    }
+    .promo{
+        &__header {
+            font-size: 35px;
+        }
+    }
+    .advantage {
+        padding: 50px 0 25px 0;
+        &__lists {
+            width: auto;
+            margin-top: 41px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__list {
+            width: 400px;
+            min-height: 200px;
+            margin-bottom: 35px;
+            img {
+                margin: 0 auto 20px auto;
+            }
+            span {
+                margin-top: 16px;
+            }
+        }
+    }
+    .caruosel {
+        padding: 55px 0;
+        &__inner {
+            width: 80%;
+        }
+    }
+    .consultation {
+        .conteiner {
+            max-width: 500px;
+        }
+        .title__left {
+            font-size: 22px;
+            margin-bottom: 35px;
+        }
+        .consultation__description {
+            font-size: 16px;
+        }
+    }
+    .catalog {
+        &__tab_all {
+            width: 545px;
+        }
+    }    
+}
+
+// -------------------------------------------------------------------------
+
+@media (max-width: 575px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        &__logo {
+            width: auto;
+        }
+        &__official {
+            width: auto;
+            font-size: 20px;
+            margin-top: 30px;
+            height: auto;
+            color: #0a7006;
+            span {
+                font-size: 28px;
+                color: #0a7006;
+                font-weight: bold;
+            }
+        }
+        &__contacts {
+            width: auto;
+            margin-top: 50px;
+            align-items: center;
+            color: #0a7006;
+        }
+    }
+    .promo {
+        background: url(../../img/promo.jpg) center (center/cover) no-repeat;
+        &__header {
+            display: block;
+            font-size: 24px;
+            width: 250px;
+            height: auto;
+        } 
+        &__subheader {
+            display: block;
+            font-size: 18px;
+            width: 250px;
+            margin-top: 5px;
+        } 
+        &__icons {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center; 
+        }
+        &__icons {
+            width: auto;
+        }
+        &__icon {
+            width: auto;
+            margin-bottom: 45px;
+        }
+        .button_main {
+            width: 270px;
+            height: 45px;
+        }
+    }
+    .advantage {
+        font-size: 25px;
+        &__list {
+            width: 270px;
+        }
+    }
+    .consultation {
+        .conteiner {
+            max-width: 270px;
+            .feed_form {
+                width: 270px;
+            }
+        }
+        .title__left {
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+        .consultation__description {
+            font-size: 14px;
+        }
+    }
+    .caruosel {
+        padding: 55px 0;
+        &__inner {
+            width: 80%;
+        }
+    }
+    .catalog {
+        &__tab_all {
+            width: 265px;
+            font-size: 11px;
+        }
+        &__tab {
+            width: 80px;
+            font-size: 11px;
+        }
+    }
+    .overlay {
+        .modal {
+            &__close {
+                right: 40px;
+                font-size: 40px;
+                line-height: 45px;
+            }
+        }
+    }
+    .offer {
+        &__sale {
+            width: 320px;
+            padding: 5px;
+            button {
+                width: 200px;
+                right: 65px;
+            }
+            &_subtitle {
+                font-size: 16px;
+                margin-top: 14px;
+            }
+        }
+        &__business {
+            width: 320px;
+            padding: 5px;
+            button {
+                width: 200px;
+                right: 65px;
+            }
+            &_subtitle {
+                font-size: 16px;
+                margin-top: 14px;
+            }
+        }
+    }
+}
+
+// -------------------------------------------------------------------------

@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    // блок с логтипом будет занимать 250px, при этом картинка в нём будет занимать 100% ширины
+    &__logo {
+        width: 33%;
+        //width: 250px;
+        img {
+            width: 70%;
+        }
+    }
+    &__official {
+        width: 33%;
+        height: 11px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: $white-color;
+        span {
+            display: block;
+            font-size: 24px;
+        }
+    }
+    &__contacts {
+        width: 33%;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: $white-color;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        .button {
+            margin-top: 5px;
+        }
+    }
+}

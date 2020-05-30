@@ -1,0 +1,12 @@
+.copyright {
+    min-height: 42px;
+    background-color: rgb(230, 223, 223);
+    &__wrapper {
+        font-size: 10px;
+        padding-top: 11px;
+        padding-left: 10px;
+        p {
+            display: block;
+        }
+    }
+}

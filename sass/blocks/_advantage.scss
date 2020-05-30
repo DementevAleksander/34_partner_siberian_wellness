@@ -1,0 +1,73 @@
+.advantage {
+    background-color: #f6f6f6;
+    text-align: center;
+    min-height: 470px;
+    padding: 70px 0 95px 0;
+    &__lists {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        width: 950px;
+        min-height: 255px;
+    }
+    &__list {
+        width: 255px;
+        min-height: 255px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: $text;
+        span {
+            display: block;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+            color: $text;
+            margin-top: 25px;
+        }
+        img {
+            display: block;
+            margin: 0 auto 38px auto;
+        }
+    }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat; //имя анимации
+            animation-duration: 3s; //скорость воспроизведения
+            animation-timing-function: ease; //ускорение
+            animation-iteration-count: infinite; //повторение
+        }
+    }
+}
+
+.animate__animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animate__rotateInDownRight {
+    -webkit-animation-name: rotateInDownRight;
+    animation-name: rotateInDownRight;
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.animate__animated.animate__flip {
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    -webkit-animation-name: flip;
+    animation-name: flip;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+.animate__slideInRight {
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+}

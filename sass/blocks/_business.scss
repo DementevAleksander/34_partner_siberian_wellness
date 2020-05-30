@@ -1,0 +1,71 @@
+.offer {
+    background-color: #f6f6f6;
+    text-align: center;
+    min-height: 350px;
+    padding: 70px 0 95px 0;
+    width: auto;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &__sale {
+        padding: 10px;
+        position: relative;
+        width: 400px;
+        height: 333px;
+        margin: 5px;
+        background: url(../img/balloon.png) center (center/cover) no-repeat;
+        border-radius: 33px;
+        &_title {
+            font-size: 27px;
+            font-weight: bold;
+            color: $white-color;
+            margin-top: 10px;
+        }
+        &_subtitle {
+            font-size: 20px;
+            margin-top: 25px;
+            color: $white-color;
+        }
+        button {
+            position: absolute;
+            right: 50px;
+            bottom: 45px;
+            animation-name: bottom_animations; //имя анимации
+            animation-duration: 3s; //скорость воспроизведения
+            animation-iteration-count: infinite; //повторение
+        }
+    }
+    &__business {
+        padding: 10px;
+        position: relative;
+        width: 400px;
+        height: 333px;
+        margin: 5px;
+        background: url(../img/money.png) center (center/cover) no-repeat;
+        border-radius: 33px;
+        &_title {
+            font-size: 27px;
+            font-weight: bold;
+            color: $white-color;
+            margin-top: 10px;
+        }
+        &_subtitle {
+            font-size: 20px;
+            margin-top: 25px;
+            color: $white-color;
+        }
+        button {
+            position: absolute;
+            right: 50px;
+            bottom: 45px;
+            position: absolute;
+            right: 50px;
+            bottom: 45px;
+            animation-name: bottom_animations; //имя анимации
+            animation-duration: 3s; //скорость воспроизведения
+            animation-iteration-count: infinite; //повторение
+        }
+    }
+}
